@@ -6,6 +6,10 @@ class Student < User
 
   def learn(topic)
     @knowledge << topic
+  end
+
+  def knowledge
+    @knowledge
   end 
 
 end
